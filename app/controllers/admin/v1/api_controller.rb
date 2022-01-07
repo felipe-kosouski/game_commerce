@@ -1,5 +1,9 @@
-module Admin::V1
+# frozen_string_literal: true
+
+module Admin
+  module V1
     class ApiController < ApplicationController
-        include Authenticable
+      include Authenticable
     end
+  end
 end

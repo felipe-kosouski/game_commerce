@@ -1,5 +1,9 @@
-module Storefront::V1
+# frozen_string_literal: true
+
+module Storefront
+  module V1
     class ApiController < ApplicationController
-        include Authenticable
+      include Authenticable
     end
+  end
 end
