@@ -15,6 +15,9 @@ gem 'devise_token_auth', '~> 1.1.4'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
+# Rendering
+gem 'jbuilder', '~> 2.11.5'
+
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails'
